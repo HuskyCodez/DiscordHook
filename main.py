@@ -3,9 +3,9 @@ from random import randint
 
 lock = threading.Lock()
 sent = 1
-rcolor = randint(1, 16777215)
 
 def Spammer(webhook):
+    rcolor = randint(1, 16777215)
     global sent
     content={
        "username": user,
